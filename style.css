@@ -1,48 +1,39 @@
-#canvas {
-    background-image: url("/images/screen-0\ \(1\).jpg");
-    background-size: cover;
-    justify-content: flex-end;
-  }
 
-
-
-
-  body {
-    padding: 0;
-    text-align: center;
-  }
-  
-  .game-intro {
-    float: left;
-    padding: 0% 10%;
-  }
-  
-  .game-intro p {
-    font-size: 18px;
-    font-family: "Verdana";
-  }
-/*   
-  .logo-img {
-    width: 350px;
-  }
-  
-  .arrows-img {
-    width: 150px;
-  } */
-  
   body button {
-    font-size: 20px;
-    background-color: #a41aa8;
-    color: rgb(255, 255, 255);
-    padding: 20px 30px;
-    border: 0;
-    box-shadow: 0;
+    font-size: 30px;
+    background-color: #8d0092;
+    color: #fff;
+    padding: 17px 40px;
     border-radius: 20px;
-    margin-bottom: 5px;
+    margin-top: -10px;
   }
-/*   
+  .logo-img {
+    width: 340px;
+  }
+  .game-intro {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    float: left;
+    padding: 3% 5%;
+    display: block;
+    width: 250px;
+    align-self: auto;
+    margin-top: -10px;
+  }
+  .game-intro p {
+    font-size: 16px;
+    font-family: "Verdana";
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.4;
+  }
+
   #game-board {
     float: left;
-    padding: 20px 0px;
+    padding: 0px 0px;
   }
-   */
+  
+  #canvas {
+    background-image: url("images/room1.jpg");
+    background-size: cover;
+  }
